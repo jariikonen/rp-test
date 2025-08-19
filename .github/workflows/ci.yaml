@@ -14,7 +14,7 @@ jobs:
       matrix:
         node-version: [20.x, 22.x]
     steps:
-      - run: echo "${{github}}"
+      - run: echo "${{ toJSON(github) }}"
       
       - uses: actions/checkout@v4
 
