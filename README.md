@@ -43,7 +43,6 @@ The template is configured with [Vitest](https://vitest.dev/guide/) test
 runner. It is configured so that the tests are expacted to be under `src/` and
 collected in `__tests__/` subdirectories.
 
-
 ## Git hooks
 
 The template constains a directory `git-hooks` for project's
@@ -128,3 +127,4 @@ publishing of npm packages
 [here](https://docs.npmjs.com/). Read more about publishing packages using pnpm
 [here](https://pnpm.io/cli/publish).
 
+Edited: 1
