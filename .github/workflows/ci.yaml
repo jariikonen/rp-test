@@ -10,7 +10,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  ci:
+    if: github.event_name != 'push' || github.event.pull_request == null
     runs-on: ubuntu-24.04
     strategy:
       matrix:
