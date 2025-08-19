@@ -1,5 +1,5 @@
 {
-  "name": "rp-test",
+  "name": "@jariikonen/rp-test",
   "private": true,
   "version": "0.0.0",
   "type": "module",
