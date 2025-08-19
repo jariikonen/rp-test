@@ -14,8 +14,8 @@ jobs:
       matrix:
         node-version: [20.x, 22.x]
     steps:
-      - run: echo "${{ toJSON(github) }}"
-      
+      - run: echo "name - ${{ github.event_name }}, pr - ${{ github.event.pull_request }}, push - ${{ github.event.push }}"
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-node@v4
